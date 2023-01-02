@@ -1,0 +1,50 @@
+input {
+  margin-bottom: 10px;
+  height: 15px;
+  padding: 5px;
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 30px auto 0;
+}
+
+select {
+  margin-bottom: 15px;
+  height: 25px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: fit-content;
+  background-color: #009c83;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-family: system-ui;
+}
+
+.results {
+  color: white;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: grid;
+  gap: 20px;
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.results .box {
+  background-color: #fc4b17;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
